@@ -38,25 +38,7 @@ class _SorahTextScreenState extends State<SorahTextScreen> {
           width: MediaQuery.of(context).size.width,
           child: Column(
             children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Icon(Icons.search_outlined,color: Theme.of(context).colorScheme.surface,),
-                  TextButton(
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => SearchQuranScreen()));
-                      },
-                      child: Text(
-                        "بحث",
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                     color: Theme.of(context).colorScheme.surface,),
-                      )),
-                ],
-              ),
+            
               Expanded(
                 flex: 3,
                 child: Padding(
