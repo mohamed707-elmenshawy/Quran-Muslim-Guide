@@ -146,7 +146,7 @@ flutter:
     - assets/json/
     - assets/lottie/
     - assets/QuranV2.sqlite
-    - assets/QuranData.sqlite
+    # - assets/QuranData.sqlite
     - assets/json tafser words/
     - assets/app_icon.png
 
